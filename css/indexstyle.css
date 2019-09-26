@@ -1,0 +1,234 @@
+html{
+	position: relative;
+}
+
+body {
+	margin-bottom: 100px;
+	margin-top: 30px;
+}
+
+.jumbotron {
+	height: 950px;
+	background-image: url(../assets/img/patrick-fore-381200.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+section {
+	min-height: 900px;
+}
+
+hr {
+	width: 250px;
+	border-top: 3px solid #999;
+}
+
+.nama h1 {
+	text-align: center;
+	color: black;
+	font-family: fantasy;
+	color: white;
+	padding-top: 90px;
+	padding-left: 110px;
+	position: absolute;
+}
+
+.nama p {
+	padding-top: 180px;
+	padding-left: 460px;
+	color: white;
+	font-family: cursive;
+	font-size: 50px;
+	position: absolute;
+}
+/*sosmed*/
+.sosmed {
+	margin-left: 260px;
+	margin-top: 300px;
+}
+
+.sosmed li {
+    display: inline-table;
+    margin-right: 20px;
+}
+
+.sosmed a {
+	font-family: monospace;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+
+.kotak {
+	display: block;
+	background-color: black;
+	padding: 18px;
+	border: 3px solid white;
+}
+
+.twitter {
+	border-color: #00c7ff;
+}
+
+.facebook {
+	border-color: #002eff;
+}
+
+.aboutme {
+	border-color: #ff4300;
+}
+
+.twitter:hover {
+	background-color: #00c7ff;
+	transition: background-color .4s;
+}
+
+.aboutme:hover {
+	background-color: #ff4300;
+	transition: background-color .4s;
+}
+
+.facebook:hover {
+	background-color: #002eff;
+	transition: background-color .4s;
+}
+
+/*akhir sosmed*/
+
+.gambar img {
+	width: 160px;
+	border: 5px solid #666;
+	float: left;
+}
+
+.gambar {
+	width: 400px;
+	float: right;
+	text-align: justify;
+	padding-top: 39px;
+}
+
+.about {
+	margin-top: 400px;
+	background-color: #aaaaa2;
+}
+
+.about p {
+	font-family: serif;
+	font-size: 15px;
+}
+
+/*Myskill*/
+.myskill {
+	background-image: url(../assets/img/jon-moore-399489.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.myskill p {
+	color: white;
+}
+
+.myskill h2 {
+	text-shadow: 10px 5px 20px white;
+	color: white;
+}
+/*skill*/
+.skill {
+	letter-spacing: 4px;
+}
+
+.persen {
+	width: 100%;
+	height: 30px;
+	background-color: white;
+	margin-bottom: 70px;
+}
+
+.isi {
+	width: 95%;
+	height: 30px;
+	background-color: #9e9e9e;
+}
+
+.isi p {
+	padding: 5px;
+	color: black;
+	text-align: center;
+}
+
+/*skill1*/
+.persen1 {
+	width: 100%;
+	height: 30px;
+	background-color: white;
+	margin-bottom: 70px;
+}
+
+.isi1 {
+	width: 35%;
+	height: 30px;
+	background-color: #9e9e9e;
+}
+
+.isi1 p {
+	padding: 5px;
+	color: black;
+	text-align: center;
+}
+/*skill2*/
+.persen2 {
+	width: 100%;
+	height: 30px;
+	background-color: white;
+	margin-bottom: 70px;
+}
+
+.isi2 {
+	width: 50%;
+	height: 30px;
+	background-color: #9e9e9e;
+}
+
+.isi2 p {
+	padding: 5px;
+	color: black;
+	text-align: center;
+}
+/*skill*/
+
+/*portfolio*/
+.portfolio img {
+	position: relative;
+	transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+}
+
+.thumbnail:hover img {
+	z-index: 999;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,1);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,1);
+	transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+}
+
+.contact {
+	background-color: #aaaaa2;
+	min-height: 800px;
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 150px;
+	background-color: #444;
+	padding-top: 30px;
+}
+
+footer p {
+	color: #aaa;
+	font-size: 0,9em;
+}
